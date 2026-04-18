@@ -4,10 +4,11 @@ from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import search_web, scrape_url
+from langchain_mistralai import ChatMistralAI
 
 load_dotenv()
 
-model = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+model = ChatMistralAI(model="mistral-small-2506", temperature=1)
 
 
 parser = StrOutputParser()
