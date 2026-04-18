@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-community
+python-dotenv
+anthropic
+langchain-anthropic
+langchain_groq
+streamlit
+langchain-tavily
